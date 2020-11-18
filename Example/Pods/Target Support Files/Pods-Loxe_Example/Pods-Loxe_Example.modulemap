@@ -1,0 +1,6 @@
+framework module Pods_Loxe_Example {
+  umbrella header "Pods-Loxe_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

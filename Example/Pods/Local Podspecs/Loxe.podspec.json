@@ -1,0 +1,30 @@
+{
+  "name": "Loxe",
+  "version": "0.1.0",
+  "summary": "This SDK allows you to unlock a door lock that contains the LOXE upgrade BLE Module.",
+  "description": "This SDK allows you to unlock a door lock that contains the LOXE upgrade BLE Module. You will also need to use the LOXE Open API. This SDK has only Unlock, setTime and SetupBlueTooth fonctionnality. In order to initialize a lock you need the LOXE installer app.",
+  "homepage": "https://github.com/loxekey/Loxe-iOS-SDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Harold Hababou": "harold@loxe.io"
+  },
+  "source": {
+    "git": "https://github.com/loxekey/Loxe-iOS-SDK.git",
+    "tag": "0.1.0"
+  },
+  "source_files": "Loxe/Classes/**/*",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "vendored_frameworks": "Loxe/Frameworks/TTLock.framework",
+  "preserve_paths": "Loxe/Frameworks/TTLock.framework",
+  "xcconfig": {
+    "OTHER_LDFLAGS": "-ObjC",
+    "ONLY_ACTIVE_ARCH": "YES"
+  },
+  "frameworks": "CoreBluetooth",
+  "requires_arc": true
+}

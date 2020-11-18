@@ -1,0 +1,6 @@
+framework module Loxe {
+  umbrella header "Loxe-umbrella.h"
+
+  export *
+  module * { export * }
+}

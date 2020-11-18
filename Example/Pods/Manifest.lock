@@ -1,0 +1,16 @@
+PODS:
+  - Loxe (0.1.0)
+
+DEPENDENCIES:
+  - Loxe (from `../`)
+
+EXTERNAL SOURCES:
+  Loxe:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Loxe: 6d1d2edbb29153b266d3d4f8a4fbe35be490f3c3
+
+PODFILE CHECKSUM: 178e9689fc5410a9918ae7bedc58b7b575804feb
+
+COCOAPODS: 1.8.4
